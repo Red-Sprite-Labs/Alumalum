@@ -2,9 +2,9 @@
   "name": "alumalum",
   "version": "1.0.0",
   "description": "a chromium ext quickstart",
-  "main": "/main.js",
+  "main": "./main/main.js",
   "scripts": {
-    
+    "build": "lessc ./less/styles.less ./main/styles.css && tsc --build .\\tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Red-Sprite-Labs/Alumalum#readme",
   "dependencies": {
+    "@types/chrome": "0.0.137",
     "lessc": "^1.0.2",
     "typescript": "^4.2.4"
   }

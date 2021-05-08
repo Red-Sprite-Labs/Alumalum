@@ -1,1 +1,0 @@
-exec 'lessc style.less ./css/styles.css'

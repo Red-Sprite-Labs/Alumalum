@@ -1,13 +1,13 @@
 {
-	"name": "ChromaFM",
+	"name": "Alumalum",
 	"version": "1.0",
-	"description": "Chrome + SomaFM",
+	"description": "ChromiumExt Quickstart",
 	"manifest_version": 2,
 	"permissions": [
 		"background"
 	],
 	"background": {
-		"scripts": ["background_player.js"],
+		"scripts": ["background.js"],
 		"persistent": true
 	},
 	"browser_action": {
