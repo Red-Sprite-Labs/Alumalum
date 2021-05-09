@@ -4,7 +4,7 @@
   "description": "a chromium ext quickstart",
   "main": "./main/main.js",
   "scripts": {
-    "build": "lessc ./less/styles.less ./main/styles.css && tsc --build .\\tsconfig.json"
+    "build": "bash build.sh"
   },
   "repository": {
     "type": "git",
